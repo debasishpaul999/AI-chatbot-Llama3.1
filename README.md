@@ -16,7 +16,7 @@ This project serves as a local AI assistant that runs Meta's **LLaMA 3.1 7B** mo
 - 🧠 Runs **LLaMA 3.1 7B** model locally using Ollama
 - 💬 Multi-turn conversational memory
 - ⚡ Fast and responsive for real-time interaction
-- 🖥️ Local web interface built with Flask or Gradio
+- 🖥️ Local web interface built with Streamlit or Gradio
 - 🔒 100% local inference — privacy by design
 - 🎯 Simple, beginner-friendly deployment
 
@@ -27,7 +27,7 @@ This project serves as a local AI assistant that runs Meta's **LLaMA 3.1 7B** mo
 ```plaintext
     User Input
        ↓
-    Web Interface (Flask / Gradio)
+    Web Interface (Streamlit / Gradio)
        ↓
     Ollama Server (runs LLaMA 3.1 7B locally)
        ↓
@@ -74,7 +74,7 @@ Then pull the LLaMA 3.1 7B model:
 ## ▶️ Usage
 __Start Ollama Server__ (in a separate terminal)
 ```bash
-    ollama run llama3
+    ollama run llama3.1
 ```
 This will launch the LLaMA 3.1 model locally on port `11434`.
 
